@@ -45,7 +45,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="25dp"
                     android:textAlignment="center"
-                    android:text="TextView" />
+                    android:text="Recervaciones " />
 
                 <TextView
                     android:id="@+id/descriptionService1"
@@ -53,21 +53,22 @@
                     android:layout_height="wrap_content"
                     android:textSize="20dp"
                     android:textAlignment="center"
-                    android:text="TextView" />
+                    android:text="Es como es: Sin contrato. Sin pagar por asiento o reserva" />
 
-                <TextView
-                    android:id="@+id/priceService1"
-                    android:layout_width="match_parent"
+                <Button
+                    android:id="@+id/btnCallR"
+                    android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:textSize="20dp"
-                    android:textAlignment="center"
-                    android:text="TextView" />
+                    android:text="Solicitar"
+                    android:drawableLeft="@drawable/ic_baseline_local_phone_24" />
+
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:layout_marginTop="20dp"
                 android:orientation="vertical">
 
                 <ImageView
@@ -82,7 +83,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="25dp"
                     android:textAlignment="center"
-                    android:text="TextView" />
+                    android:text="Pedidos" />
 
                 <TextView
                     android:id="@+id/descriptionService2"
@@ -92,19 +93,20 @@
                     android:textAlignment="center"
                     android:text="TextView" />
 
-                <TextView
-                    android:id="@+id/priceService2"
-                    android:layout_width="match_parent"
+                <Button
+                    android:id="@+id/btnCallP"
+                    android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:textSize="20dp"
-                    android:textAlignment="center"
-                    android:text="TextView" />
+                    android:text="Solicitar"
+                    android:drawableLeft="@drawable/ic_baseline_local_phone_24" />
+
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:layout_marginTop="20dp"
                 android:orientation="vertical">
 
                 <ImageView
@@ -119,7 +121,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="25dp"
                     android:textAlignment="center"
-                    android:text="TextView" />
+                    android:text="Delivery o Take out" />
 
                 <TextView
                     android:id="@+id/descriptionService3"
@@ -129,13 +131,13 @@
                     android:textAlignment="center"
                     android:text="TextView" />
 
-                <TextView
-                    android:id="@+id/priceService3"
-                    android:layout_width="match_parent"
+                <Button
+                    android:id="@+id/btnCallD"
+                    android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:textSize="20dp"
-                    android:textAlignment="center"
-                    android:text="TextView" />
+                    android:text="Solicitar"
+                    android:drawableLeft="@drawable/ic_baseline_local_phone_24" />
+
             </LinearLayout>
         <!--        -->
         </LinearLayout>
