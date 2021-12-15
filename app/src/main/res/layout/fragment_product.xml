@@ -6,6 +6,7 @@
     android:layout_height="wrap_content"
     android:gravity="center"
     android:orientation="vertical"
+    android:id="@+id/Mainlayut"
     tools:context=".ui.product.ProductFragment">
 
     <SearchView
@@ -73,8 +74,8 @@
                     android:id="@+id/btnAddCart"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:text="Add Cart"
-                    android:drawableLeft="@drawable/ic_baseline_add_shopping_cart_24" />
+                    android:drawableLeft="@drawable/ic_baseline_add_shopping_cart_24"
+                    android:text="Add Cart" />
 
             </LinearLayout>
 
