@@ -1,5 +1,7 @@
 package com.usa.savi.ui.product;
 
+import android.os.Bundle;
+
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
@@ -16,4 +18,6 @@ public class ProductViewModel extends ViewModel {
     public LiveData<String> getText() {
         return mText;
     }
+
+
 }
