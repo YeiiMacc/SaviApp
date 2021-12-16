@@ -9,11 +9,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.usa.savi.R;
-
 import com.usa.savi.modelos.Servicio;
-
 import java.util.ArrayList;
 
 public class ServicioAdapter extends BaseAdapter {

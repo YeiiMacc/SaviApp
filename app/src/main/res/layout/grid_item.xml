@@ -3,64 +3,50 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+    <!--    Codigo Caja 1-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <!-- -->
-        <TextView
-            android:id="@+id/titleService"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/modernantiqua"
-            android:textSize="46dp"
-            android:textAlignment="center"
-            android:text="@string/menu_service" />
+        android:gravity="center"
+        android:paddingTop="25dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgItem"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_launcher" />
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/imgItem"
-                android:layout_width="300dp"
-                android:layout_height="200dp"
-                android:src="@mipmap/ic_launcher" />
-
             <TextView
                 android:id="@+id/tvId"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="25dp"
-                android:textAlignment="center"
                 android:text="plantilla" />
             <TextView
                 android:id="@+id/tvCampo1"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="25dp"
-                android:textAlignment="center"
                 android:text="plantilla" />
 
             <TextView
                 android:id="@+id/tvCampo2"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
-                android:textAlignment="center"
-                android:text="plantilla"/>
+                android:text="plantilla" />
+
             <TextView
                 android:id="@+id/tvCampo3"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20dp"
-                android:textAlignment="center"
-                android:text="plantilla"/>
-
-
-
+                android:text="plantilla" />
         </LinearLayout>
     </LinearLayout>
 
