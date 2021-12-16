@@ -6,8 +6,7 @@
     android:layout_height="wrap_content"
     android:gravity="center"
     android:orientation="vertical"
-    android:id="@+id/Mainlayut"
-    tools:context=".ui.product.ProductFragment">
+    tools:context=".ui.productos.ProductFragment">
 
    <GridView
        android:id="@+id/gridProductos"

@@ -3,14 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Administrador/AndroidStudioProjects/SaviApp/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.240625" />
+        <entry key="..\:/Users/Administrador/AndroidStudioProjects/SaviApp/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.240625" />
+        <entry key="..\:/Users/Administrador/AndroidStudioProjects/SaviApp/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.240625" />
+        <entry key="..\:/Users/Administrador/AndroidStudioProjects/SaviApp/app/src/main/res/layout/activity_form.xml" value="0.17768595041322313" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/SaviApp/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/SaviApp/app/src/main/res/layout/activity_splash.xml" value="0.221025641025641" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/SaviApp/app/src/main/res/layout/app_bar_main.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/SaviApp/app/src/main/res/layout/content_main.xml" value="0.221025641025641" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/SaviApp/app/src/main/res/layout/fragment_home.xml" value="0.221025641025641" />
-        <entry key="..\:/Users/Administrador/AndroidStudioProjects/SaviApp/app/src/main/res/layout/fragment_product.xml" value="0.221025641025641" />
+        <entry key="..\:/Users/Administrador/AndroidStudioProjects/SaviApp/app/src/main/res/layout/fragment_product.xml" value="0.18067226890756302" />
         <entry key="..\:/Users/Administrador/AndroidStudioProjects/SaviApp/app/src/main/res/layout/fragment_service.xml" value="0.22447916666666667" />
-        <entry key="..\:/Users/Administrador/AndroidStudioProjects/SaviApp/app/src/main/res/layout/grid_item.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Administrador/AndroidStudioProjects/SaviApp/app/src/main/res/layout/fragment_slideshow.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Administrador/AndroidStudioProjects/SaviApp/app/src/main/res/layout/grid_item.xml" value="0.17768595041322313" />
+        <entry key="..\:/Users/Administrador/AndroidStudioProjects/SaviApp/app/src/main/res/layout/nav_header_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Administrador/AndroidStudioProjects/SaviApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Administrador/AndroidStudioProjects/SaviApp/app/src/main/res/menu/main.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/yeiim/AndroidStudioProjects/Savi_v1/app/src/main/res/layout/activity_main.xml" value="0.17844202898550723" />
         <entry key="..\:/Users/yeiim/AndroidStudioProjects/Savi_v1/app/src/main/res/layout/activity_splash.xml" value="0.17844202898550723" />
         <entry key="..\:/Users/yeiim/AndroidStudioProjects/Savi_v1/app/src/main/res/layout/app_bar_main.xml" value="0.17844202898550723" />
