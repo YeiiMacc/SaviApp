@@ -11,24 +11,24 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.usa.savi.R;
-import com.usa.savi.modelos.Producto;
+
+import com.usa.savi.modelos.Surcursal;
 
 import java.util.ArrayList;
 
-public class ProductoAdapter extends BaseAdapter {
-
+public class SucursalAdapter extends BaseAdapter {
     Context context;
-    ArrayList<Producto> productos;
+    ArrayList<Surcursal> surcursales;
     LayoutInflater inflater;
 
-    public ProductoAdapter(Context context, ArrayList<Producto> productos) {
+    public SucursalAdapter(Context context, ArrayList<Surcursal> surcursales) {
         this.context = context;
-        this.productos = productos;
+        this.surcursales = surcursales;
     }
 
     @Override
     public int getCount() {
-        return productos.size();
+        return surcursales.size();
     }
 
     @Override
@@ -57,15 +57,15 @@ public class ProductoAdapter extends BaseAdapter {
         TextView campo3 = convertView.findViewById(R.id.tvCampo3);
         TextView campoId = convertView.findViewById(R.id.tvId);
 
-        Producto producto = productos.get(position);
-        byte[] image = producto.getImage();
+        Surcursal surcursal = surcursales.get(position);
+        byte[] image = surcursal.getImage();
         Bitmap bitmap = BitmapFactory.decodeByteArray(image, 0, image.length);
 
 
-        campoId.setText("ID: "+producto.getId());
-        campo1.setText(producto.getName());
-        campo2.setText(producto.getDescription());
-        campo3.setText(producto.getPrice());
+        campoId.setText("ID: "+surcursal.getId());
+        campo1.setText(surcursal.getName());
+        campo2.setText(surcursal.getDescription());
+        campo3.setText(surcursal.getLocation());
         imageview.setImageBitmap(bitmap);
 
         return convertView;

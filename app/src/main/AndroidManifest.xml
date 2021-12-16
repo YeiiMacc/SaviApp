@@ -10,19 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Savi">
         <activity
-            android:name=".splash"
-            android:exported="true" >
+            android:name=".ui.FormActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Savi.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="false"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.Savi.NoActionBar">
 
         </activity>
     </application>

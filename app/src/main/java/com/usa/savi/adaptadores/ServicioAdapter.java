@@ -11,24 +11,24 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.usa.savi.R;
-import com.usa.savi.modelos.Producto;
+
+import com.usa.savi.modelos.Servicio;
 
 import java.util.ArrayList;
 
-public class ProductoAdapter extends BaseAdapter {
-
+public class ServicioAdapter extends BaseAdapter {
     Context context;
-    ArrayList<Producto> productos;
+    ArrayList<Servicio> servicios;
     LayoutInflater inflater;
 
-    public ProductoAdapter(Context context, ArrayList<Producto> productos) {
+    public ServicioAdapter(Context context, ArrayList<Servicio> servicios) {
         this.context = context;
-        this.productos = productos;
+        this.servicios = servicios;
     }
 
     @Override
     public int getCount() {
-        return productos.size();
+        return servicios.size();
     }
 
     @Override
@@ -57,15 +57,15 @@ public class ProductoAdapter extends BaseAdapter {
         TextView campo3 = convertView.findViewById(R.id.tvCampo3);
         TextView campoId = convertView.findViewById(R.id.tvId);
 
-        Producto producto = productos.get(position);
-        byte[] image = producto.getImage();
+        Servicio servicio = servicios.get(position);
+        byte[] image = servicio.getImage();
         Bitmap bitmap = BitmapFactory.decodeByteArray(image, 0, image.length);
 
 
-        campoId.setText("ID: "+producto.getId());
-        campo1.setText(producto.getName());
-        campo2.setText(producto.getDescription());
-        campo3.setText(producto.getPrice());
+        campoId.setText("ID: "+servicio.getId());
+        campo1.setText(servicio.getName());
+        campo2.setText(servicio.getDescription());
+        campo3.setText(servicio.getPrice());
         imageview.setImageBitmap(bitmap);
 
         return convertView;
