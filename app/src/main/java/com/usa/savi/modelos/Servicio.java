@@ -4,15 +4,18 @@ public class Servicio {
     private int id;
     private String name;
     private String description;
+    private String price;
     private byte[] image;
 
-    public Servicio(int id, String name, String description, byte[] image) {
+    public Servicio(int id, String name, String description, String price, byte[] image) {
         this.id = id;
         this.name = name;
         this.description = description;
+        this.price = price;
         this.image = image;
     }
-    public Servicio() { }
+    public Servicio() {
+    }
 
     public int getId() {
         return id;
@@ -36,6 +39,14 @@ public class Servicio {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getPrice() {
+        return price;
+    }
+
+    public void setPrice(String price) {
+        this.price = price;
     }
 
     public byte[] getImage() {

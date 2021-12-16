@@ -4,15 +4,18 @@ public class Surcursal {
 
     private int id;
     private String name;
+    private String description;
     private String location;
     private byte[] image;
 
-    public Surcursal(int id, String name, String location, byte[] image) {
+    public Surcursal(int id, String name, String description, String location, byte[] image) {
         this.id = id;
         this.name = name;
+        this.description = description;
         this.location = location;
         this.image = image;
     }
+
     public Surcursal() {
     }
 
@@ -30,6 +33,14 @@ public class Surcursal {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public String getLocation() {
