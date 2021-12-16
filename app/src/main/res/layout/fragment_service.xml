@@ -62,7 +62,8 @@
                     android:text="Solicitar"
                     android:drawableLeft="@drawable/ic_baseline_local_phone_24" />
 
-            </LinearLayout>
+
+        </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
